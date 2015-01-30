@@ -46,8 +46,8 @@ ngx_module_t  ngx_http_header_filter_module = {
 };
 
 
-static char ngx_http_server_string[] = "Server: nginx" CRLF;
-static char ngx_http_server_full_string[] = "Server: " NGINX_VER CRLF;
+static char ngx_http_server_string[] = "Server: ff.gg" CRLF;
+static char ngx_http_server_full_string[] = "Server: ff.gg" NGINX_VER CRLF;
 
 
 static ngx_str_t ngx_http_status_lines[] = {
